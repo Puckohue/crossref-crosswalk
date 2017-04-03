@@ -27,10 +27,10 @@
         <xsl:value-of select="$timeStamp"/>
       </timestamp>
       <depositor>
-        <depositor_name>Bridger Dyson-Smith</depositor_name>
-        <email_address>bdysonsm@utk.edu</email_address>
+        <depositor_name>Jacob Andersson</depositor_name>
+        <email_address>jacob.andersson@mah.se</email_address>
       </depositor>
-      <registrant>University of Tennessee</registrant>
+      <registrant>Malmö University Library</registrant>
     </head>
   </xsl:template>
 
@@ -108,10 +108,10 @@
       <xsl:otherwise>
         <publisher>
           <publisher_name>
-            <xsl:text>Newfound Press, University of Tennessee Libraries</xsl:text>
+            <xsl:text>Malmö University</xsl:text>
           </publisher_name>
           <publisher_place>
-            <xsl:text>Knoxville, Tenn.</xsl:text>
+            <xsl:text>Malmö, Sweden</xsl:text>
           </publisher_place>
         </publisher>
       </xsl:otherwise>
